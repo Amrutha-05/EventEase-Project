@@ -1,0 +1,79 @@
+/* Navbar container */
+.nav {
+  width: 100%;
+  height: 72px;
+  background: linear-gradient(90deg, #e0e7ff 0%, #d7ffda 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  box-shadow: 0 2px 12px rgba(99, 102, 241, 0.08);
+  box-sizing: border-box;
+}
+
+/* Brand text on left */
+.nav-left .brand {
+  font-size: 24px;
+  font-weight: 800;
+  color:#3730a3;
+  white-space: nowrap;
+  transition: color 0.18s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Right nav links */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-right li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #3730a3;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background 0.18s, color 0.18s;
+}
+
+.nav-right li a:hover {
+  background: linear-gradient(90deg, #6366f1 60%, #22c55e 100%);
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .nav {
+    height: 56px;
+    padding: 0 16px;
+  }
+
+  .nav-left .brand {
+    font-size: 18px;
+  }
+
+  .nav-right {
+    gap: 12px;
+  }
+
+  .nav-right li a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
+
+/* Space below fixed navbar */
+body {
+  padding-top: 72px;
+  background-color: #0f172a;
+}

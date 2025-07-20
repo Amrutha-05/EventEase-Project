@@ -1,0 +1,36 @@
+/* Entire EventList Page Container */
+.event-list-container {
+  min-height: 100vh;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+/* Wrapper to center grid properly */
+.event-list-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  padding-top: 900px;
+}
+
+/* Responsive Grid */
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 24px;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+/* Card styles */
+.event-card {
+  background: linear-gradient(120deg, #f0f4ff 60%, #e0e7ff 100%);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(99, 102, 241, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
