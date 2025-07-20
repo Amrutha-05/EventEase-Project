@@ -1,12 +1,19 @@
-# React + Vite
+# EventEase – Event Management Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**EventEase** is a responsive and user-friendly event management frontend application developed using **React.js**. It allows users to browse upcoming events, register for them, add them to their calendar, and view detailed information — all in one seamless interface.
 
-Currently, two official plugins are available:
+## 🔹 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Event Listing**: View events organized by month and year in a clean card-based layout.
+- **Dynamic Event Status**: Automatically disables "Register" and "Add to Calendar" buttons for past events.
+- **Calendar Integration**: Instantly add future events to Google Calendar.
+- **Event Details Page**: Navigate to a dedicated event page to explore full event information.
+- **Modular Architecture**: Reusable React components for scalability and maintainability.
+- **Responsive Design**: Optimized layout for desktops, tablets, and mobile devices.
 
-## Expanding the ESLint configuration
+## 🔹 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js
+- **Routing**: React Router DOM
+- **Styling**: Plain CSS with modular JSX styling
+
